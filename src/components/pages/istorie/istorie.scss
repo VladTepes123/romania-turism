@@ -1,0 +1,31 @@
+.istorie {
+    background-image: url(../../../assets/images/nature.jpg);
+
+    h1 {
+        text-align: center;
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            padding: 5px 20px;
+            width: 200px;
+            height: 100px;
+        }
+    }
+
+    .card-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .bottom-container {
+        background-color: white;
+        margin-top: 15px;
+        border: 1px solid black;
+        padding: 10px;
+    }
+}

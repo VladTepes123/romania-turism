@@ -1,0 +1,29 @@
+.acasa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .imagini {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .border {
+      height: 720px;
+      width: 120px;
+    }
+
+    .harta {
+      border: 2px solid black;
+      max-width: 60%;
+      height: auto;
+      transition: transform 0.5s ease;
+    }
+
+    .zoomed {
+      margin-top: 220px;
+      transform: scale(2.0);
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.imagini-container {
+    background-image: url(../../../assets/images/romanianature.jpg);
+
+    h1 {
+        padding-top: 30px;
+        text-align: center;
+        color: white;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .card-container {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 60px;
+    }
+}
